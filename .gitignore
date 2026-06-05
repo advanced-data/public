@@ -1,0 +1,6 @@
+projects/LMS/.env
+projects/LMS/web/.env
+projects/LMS/orchestration/__pycache__/
+projects/agent-orchestrator/__pycache__/
+projects/LMS/web/node_modules/
+projects/LMS/web/.next/

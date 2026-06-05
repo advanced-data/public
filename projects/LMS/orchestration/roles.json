@@ -1,0 +1,13 @@
+{
+  "worker_command": ["python3", "-c", "import sys; print(sys.stdin.read())"],
+  "roles": [
+    { "name": "product", "prompt_file": "prompts/product.md" },
+    { "name": "frontend", "prompt_file": "prompts/frontend.md" },
+    { "name": "backend", "prompt_file": "prompts/backend.md" },
+    { "name": "database", "prompt_file": "prompts/database.md" },
+    { "name": "security", "prompt_file": "prompts/security.md" },
+    { "name": "qa", "prompt_file": "prompts/qa.md" },
+    { "name": "devops", "prompt_file": "prompts/devops.md" },
+    { "name": "review", "prompt_file": "prompts/review.md" }
+  ]
+}
